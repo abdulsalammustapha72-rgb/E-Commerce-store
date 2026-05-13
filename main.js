@@ -182,7 +182,7 @@ placeOrder?.addEventListener('click', () => {
 
     renderCart()
 
-    window.location.href = 'success.html'
+    window.location.href = 'sucess.html'
 
 })
 
