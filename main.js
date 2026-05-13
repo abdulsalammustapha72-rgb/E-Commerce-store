@@ -176,6 +176,9 @@ buttons.forEach((button) => {
 // PLACE ORDER
 placeOrder?.addEventListener('click', () => {
 
+    if (cart.length === 0) {
+        return
+    }
     localStorage.removeItem('cart')
 
     cart = []
