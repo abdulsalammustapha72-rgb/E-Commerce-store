@@ -3,23 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>E-Commerce Store</title>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-   <div class="weather__box">
-        <img src="/images/moutain.jpg" alt="" width="900px">
-
-        <div class="overlay">
-            <input type="text"
-            class="weather__input"
-            placeholder="Enter a city">
-
-            <h1 class="city">Search a city</h1>
-            <h2 class="temp">--C</h2>
-            <h3 class="condition">Weather</h3>
-        </div>
-   </div>
-<script src="main.js"></script>
+        <header>
+            <section class="header__section">
+                <h1>E-Commerce Store</h1>
+                <nav>
+                    
+                    <a href="">
+                        <img src="Icons/mdi-light--account.svg" alt="">
+                        <p>About</p>
+                    </a>
+                    <a href="">
+                        <img src="Icons/mingcute--notification-line.svg" alt="">
+                        <p>Notification</p>
+                    </a>
+                    <a href="cart.html">
+                        <img src="Icons/mdi-light--cart.svg" alt="">
+                        <p>Cart Items</p>
+                    </a>
+                </nav>
+            </section>
+        </header>
+        <main>
+            <h2 class="main__h2">Welcome to my store</h2>
+            <p class="intro">
+                Welcome to a refined shopping experience where elegance meets quality.Our collection is carefully curated for those who appreciate timeless style,premium craftsmanship, and attention to details.Every pece in our store reflects sophistication and excellence, designed to elevate your lifestyle.Explore with confidence, knowing you're choosing products that embody class,comfort and distinction.
+            </p>
+            <section class="products">
+                <div>
+                    <img src="images/item0001.jpg" alt="">
+                    <h3>Luxury SmartWatch</h3>
+                    <p>$25</p>
+                    <button 
+                        class="btn"
+                        data-name="Luxury SmartWatch"
+                        data-price="25"
+                        data-image="images/item0001.jpg"
+                    >Add to cart</button>
+                </div>
+                <div>
+                    <img src="images/item0003.jpg" alt="">
+                    <h3>Luxury SmartWatch leather coating</h3>
+                    <p>$35</p>
+                    <button 
+                        class="btn"
+                        data-name="Luxury SmartWatch leather coating"
+                        data-price="35"
+                        data-image="images/item0003.jpg"
+                    >Add to cart</button>
+                </div>
+                <div>
+                    <img src="images/item0002.jpg" alt="">
+                    <h3>Luxury SmartWatch  black</h3>
+                    <p>$32</p>
+                    <button
+                        class="btn"
+                        data-name="Luxury SmartWatch  black"
+                        data-price="32"
+                        data-image="images/item0002.jpg"
+                     >Add to cart</button>
+                </div>
+                <div>
+                    <img src="images/laptop1.jpg" alt="" width="400px">
+                    <h3>HP SSD Laptop</h3>
+                    <p>$120</p>
+                    <button 
+                        class="btn"
+                        data-name="HP SSD Laptop"
+                        data-price="120"
+                        data-image="images/laptop1.jpg"
+                    >Add to cart</button>
+                </div>
+                <div>
+                    <img src="images/laptop2.jpg" alt="" width="400px">
+                    <h3>HP Notebook Laptop</h3>
+                    <p>$300</p>
+                    <button 
+                        class="btn"
+                        data-name="HP Notebook Laptop"
+                        data-price="300"
+                        data-image="images/laptop2.jpg"
+                    >Add to cart</button>
+                </div>
+                <div>
+                    <img src="images/headset1.jpg" alt="" width="400px">
+                    <h3>Apple Headset(Renewed)</h3>
+                    <p>$34</p>
+                    <button 
+                        class="btn"
+                        data-name="Apple Headset(Renewed)"
+                        data-price="34"
+                        data-image="images/headset1.jpg"
+                    >Add to cart</button>
+                </div>
+                <div>
+                    <img src="images/headset2.jpg" alt="" width="400px">
+                    <h3>Loud/ultra HeadSet</h3>
+                    <p>$25</p>
+                    <button  
+                        class="btn"
+                        data-name="Loud/ultra HeadSet"
+                        data-price="25"
+                        data-image="images/headset2.jpg"
+                    >
+                        Add to cart
+                    </button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; E-Commerce</p>
+        </footer>
+        <script src="main.js"></script>
 </body>
 </html>
